@@ -4,10 +4,20 @@
 import os
 import time
 
+# rouge    \u001b[31m
+# bleu     \u001b[34m
+# annuler  \u001b[0m
+# vert     \u001b[32m
+
+red = ("\u001b[31m")
+ble = ("\u001b[34m")
+ver = ("\u001b[32m")
+ann = ("\u001b[0m")
+
 #présentation
 os.system("clear")
 print("rapide est simple générateur de payload metasploit ( msfconsole )\n\n")
-print(" _______  _______  _______ _________ _______  _______  _        _______ __________________    ")
+print("(red) _______  _______  _______ _________ _______  _______  _        _______ __________________    ")
 print("(  ____ \(  ___  )(  ____ \\__   __/(  ____ \(  ____ )( \      (  ___  )\__   __/\__   __/    ")
 print("| (    \/| (   ) || (    \/   ) (   | (    \/| (    )|| (      | (   ) |   ) (      ) (       ")
 print("| (__    | (___) || (_____    | |   | (_____ | (____)|| |      | |   | |   ) (      ) (       ")
