@@ -8,11 +8,19 @@ Rapide et simple générateur de payload metasploit
 - `python`
 - `metasploit`
 - `netcat`
-#  commande
+#  installation du repository
 ```
 git clone https://github.com/actonetor/fastsploit
 ```
 
+#  Docker
+```
+docker pull actonetor/fastsploit
+```
+```
+docker run --rm -it actonetor/fastsploit
+```
+#  Commande
 ```
 cd fastsploit
 ```
