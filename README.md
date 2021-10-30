@@ -1,16 +1,27 @@
 # fastsploit
 Rapide et simple générateur de payload metasploit
 
+# requirement
+**`fastsploit`** require des installation
+
+- `git`
+- `python`
+- `metasploit`
+- `netcat`
 #  commande
-
+```
 git clone https://github.com/actonetor/fastsploit
+```
 
+```
 cd fastsploit
-
+```
+```
 chmod 777 fastsploit
-
+```
+```
 ./fastsploit
-
+```
 #  TOOL
 
 - [x] Payload
