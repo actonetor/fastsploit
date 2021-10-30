@@ -9,8 +9,9 @@ Rapide et simple générateur de payload metasploit
 - `metasploit`
 - `netcat`
 #  commande
-
-```git clone https://github.com/actonetor/fastsploit```
+```
+git clone https://github.com/actonetor/fastsploit
+```
 ```
 cd fastsploit
 ```
